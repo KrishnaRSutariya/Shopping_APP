@@ -40,7 +40,7 @@ const ALLCard = () => {
                                             <div className="d-flex m-2 rounded-3 overflow-hidden flex-wrap border border-3 border-warning" style={{ backgroundColor: '#3C3E44' }}>
                                                 <div className="col-sm-6 col-12">
                                                     <Link to={`/Product/${item.id}`}>
-                                                        <img src={item.images[0]} alt="" className='border border-top-0 border-bottom-0 border-start-0 border-5 border-warning' style={{ width: '100%', height: '100%' }} title={item.title} />
+                                                        <img src={item.images[0]} alt="" className='borderremove border border-top-0 border-start-0 border-5 border-warning' style={{ width: '100%', height: '100%' }} title={item.title} />
                                                     </Link>
                                                 </div>
                                                 <div className="col-sm-6 col-12 px-3">
